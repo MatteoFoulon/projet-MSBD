@@ -127,21 +127,22 @@ h1{
     width: 80%;
 }
 
-@media screen and (min-width: 400px ) and (max-width:  767px){
+@media screen and (max-width:  767px){
 .titre{
     margin-bottom: 80px;
     margin-top:50px;   
 }
 h1{
-    font-size: 140px;
+    font-size: 100px;
     margin: 40px 0px 0px 0px ;
 }
 
 .p_titre{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .video-font-block{
+    width: 120%;
     height: 500px;
     margin-bottom: 40px;
 }

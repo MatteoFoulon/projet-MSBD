@@ -229,14 +229,14 @@ footer{
 
 @media screen and (max-width:  767px){
 p{
-    font-size:25px;
+    font-size:20px;
 }
 h1{
     font-size: 100px;
     margin: 40px 0px 0px 0px ;
 }
 h2{
-    font-size:40px;
+    font-size:30px;
 }
 h3{
     font-size: 30px;
@@ -258,13 +258,22 @@ header{
     bottom: 0;
     visibility: visible; 
     opacity: 100; 
-    padding:20px 0px;
+    padding:10px 0px;
     margin-bottom: 0px;
     z-index: 4;
 
 }
 .img_header{
-    width: 70px;
+    width: 40px;
+    background-color:none ;
+    border-color: none;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px ;
+    font-size: 30px;
+    margin:0px 10px;
+    padding:0;
+   
 }
 
 footer{
