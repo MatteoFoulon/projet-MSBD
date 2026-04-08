@@ -1,0 +1,16 @@
+
+
+.carte{
+    width: 25%;
+
+}
+
+.carte:hover {
+  transform: scale(110%);
+  transition-duration: 0.2s;
+
+}
+
+.block_cart{
+   gap: 70px;
+}
