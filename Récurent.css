@@ -227,12 +227,12 @@ footer{
   width: 100%;
 }
 
-@media screen and (min-width: 400px ) and (max-width:  767px){
+@media screen and (max-width:  767px){
 p{
     font-size:25px;
 }
 h1{
-    font-size: 110px;
+    font-size: 100px;
     margin: 40px 0px 0px 0px ;
 }
 h2{
