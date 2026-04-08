@@ -10,7 +10,7 @@ h1{
     font-size:60px
 }
 .video-font-block{
-    width: 110%;
+    width: 115%;
     height: 860px;
     margin-bottom: 160px;
      box-shadow:inset 10px -30px 40px 25px #010d18 ; 
@@ -133,18 +133,17 @@ h1{
     margin-top:50px;   
 }
 h1{
-    font-size: 150px;
+    font-size: 140px;
     margin: 40px 0px 0px 0px ;
 }
 
 .p_titre{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .video-font-block{
-    width: 110%;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .video-font{
     width: 100%;
