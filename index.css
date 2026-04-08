@@ -66,15 +66,13 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
     width: 35%;
 
 }
 .nouveautés_carte{
  
  width: 90%;
- margin: 0px;
+ margin-bottom: 50px;
 }
 
 .Jeux_block{
@@ -95,6 +93,7 @@ h1{
     border: 3px solid #06213d00;
     width: 110%;
     height: 900px;
+    margin-bottom: 50px;
     overflow: hidden;
 }
 .Jeux_carte:hover {
@@ -160,9 +159,6 @@ h1{
       object-fit: cover;
 }
 
- main{
-    width: 95%;
-}
 .block_la_Une{
     flex-direction: column;
     align-items: center;
@@ -170,11 +166,14 @@ h1{
 .block_nouveautés{
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
     width: 100%;
 
 }
+.nouveautés_carte{
+ 
+ width: 90%;
+}
+
 .Jeux_block{
     display: flex;
     flex-direction: column;
@@ -191,10 +190,5 @@ h1{
     border-color:#2ed9ff;
 }
 
-.nouveautés_carte{
- 
- width: 90%;
- margin: 0px;
-}
 
 }
