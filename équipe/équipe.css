@@ -1,14 +1,14 @@
 
 
 h2{
-    margin-bottom: 70px ;
+    margin-bottom: 50px ;
 }
 .block_cart{
   display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
    justify-content: center;
    align-items: flex-start;
+   flex-wrap: wrap;
    gap: 50px;
     width: 100%;
 }
@@ -21,7 +21,7 @@ main{
     width: 90%;
 }
 .border_grade{
-    border-color: #000000;
+    border-color: #2ED9FF; 
     border-width: 0px 0px 2px 0px;
     border-style: solid;
 }
@@ -36,4 +36,21 @@ main{
 }
 .carte{
     margin:0px 25px ;
+}
+
+@media screen and (max-width:  767px){
+  
+.block_cart{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: none;
+   gap: none;
+   width: 100%;
+   margin-bottom: 40px;
+}
+.carte{
+    width: 70%;
+}
 }
