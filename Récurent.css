@@ -227,10 +227,10 @@ footer{
 
 @media screen and (max-width:  767px){
 p{
-    font-size:20px;
+    font-size:18px;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
     margin: 40px 0px 60px 0px ;
 }
 h2{
@@ -238,7 +238,7 @@ h2{
      margin-bottom: 20px;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
     color: #f0f8ff;
 }
 
