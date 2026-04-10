@@ -146,6 +146,9 @@ h2{
 .p_titre{
     font-size: 20px;
 }
+.presentation{
+    padding:20px;
+}
 
 .video-font-block{
     width: 100%;
