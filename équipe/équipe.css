@@ -39,6 +39,10 @@ main{
 }
 
 @media screen and (max-width:  767px){
+
+h2{
+    font-size:30px;
+}
   
 .block_cart{
    display: flex;

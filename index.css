@@ -137,9 +137,10 @@ h1{
     font-size: 100px;
     margin: 40px 0px 0px 0px ;
 }
-h2{
-     font-size:30px;
+.h2_present{
+    font-size: 30px;
 }
+
 .h3_projet{
     font-size:35px
 }
