@@ -1,0 +1,22 @@
+
+.carte{
+    width: 25%;
+
+}
+
+.carte:hover {
+  transform: scale(110%);
+  transition-duration: 0.2s;
+
+}
+
+h1{
+    font-size: 100px;
+    margin-bottom: 150px;
+}
+
+
+
+.block_cart{
+   gap: 70px;
+}
