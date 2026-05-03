@@ -14,6 +14,7 @@ body{
      overflow-x: hidden;
 }
 
+
 .block_texte_invisible {
   position: fixed; 
   top: 0;
@@ -68,6 +69,8 @@ body{
 .img_carte{
     width: 80%;
 }
+
+
 
 h1{
     font-size: 180px;
@@ -150,6 +153,7 @@ header{
     padding:20px 60px;
    
 }
+
 
 .header_responsive{ 
     visibility: hidden; 
@@ -273,6 +277,11 @@ header{
     z-index: 4;
 
 }
+
+.header_lien:hover{
+    box-shadow: none;
+}
+
 .img_header{
     width: 40px;
     background-color:none ;
