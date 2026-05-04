@@ -1,0 +1,38 @@
+
+
+main{
+    width: 70%;
+}
+.publi_commun{
+    padding: 20px;
+    margin: 0px 50px 50px 50px;
+}
+.publi_line{
+    width: 85%;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color:#2ED9FF ;
+     box-shadow: 0px 0px 7px 0px #2ed9ff;
+}
+.publi_font{
+     padding: 20px;
+     border-radius: 10px;
+      transition: 0.2s;
+}
+.publi_font:hover{
+     background-color: #013665;
+     transition: 0.2s;
+}
+
+@media screen and (max-width:  767px){
+    main{
+    width: 95%;
+}
+    article{
+    padding: 20px;
+}
+.publi_commun{
+     
+    margin: 0px 10px 50px 10px;
+}
+}
