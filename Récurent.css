@@ -226,7 +226,7 @@ footer{
   border-style: solid;
   border-width:  2px 0px 0px 0px;
   padding: 20px 0px;
-  margin-top: 200px;
+  margin-top: 150px;
   width: 100%;
 }
 .footer_img{
@@ -245,7 +245,7 @@ p{
     font-size:18px;
 }
 h1{
-    font-size: 38px;
+    font-size: 45px;
     margin: 40px 0px 60px 0px ;
 }
 h2{
@@ -304,7 +304,7 @@ header{
 
 footer{
     padding: 20px 0px 80px;
-      margin-top: 100px;
+      margin: 100px 0px 20px;
 }
 .footer_p{
  align-items: center;
