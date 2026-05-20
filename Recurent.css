@@ -16,6 +16,10 @@ body{
 
 
 .block_texte_invisible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: fixed; 
   top: 0;
   bottom: 0;
@@ -33,7 +37,11 @@ body{
 }
 
 .texte_invisible {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
   margin: 75px auto;
   padding: 20px;
   background: #06213D;
@@ -41,6 +49,12 @@ body{
   box-shadow: 0px 0px 7px 0px #2ed9ff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   position: relative; 
+}
+.close{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .texte_invisible h2 {
@@ -243,6 +257,14 @@ footer{
 }
 
 @media screen and (max-width:  767px){
+  .texte_invisible {
+  width: 200px; 
+}
+.texte_invisible h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
 p{
     font-size:18px;
 }
