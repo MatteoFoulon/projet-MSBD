@@ -326,8 +326,12 @@ header{
 }
 
 footer{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0px 80px;
-      margin: 40px 0px 20px;
+    margin: 40px 0px 25px;
 }
 .footer_img_block{
     display: flex; 
