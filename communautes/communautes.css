@@ -78,5 +78,13 @@ h3{
 .publi_commun{
     padding: 10px;
 }
-
+.profile{
+ 
+    font-size: 20px;
+    width: 150px;
+    height: 110px;
+}
+.img_prof{
+    width: 50px;
+}
 }

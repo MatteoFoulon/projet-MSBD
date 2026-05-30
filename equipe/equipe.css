@@ -20,19 +20,25 @@ h2{
 main{
     width: 90%;
 }
-.border_grade{
-    border-color: #2ED9FF; 
-    border-width: 0px 0px 2px 0px;
-    border-style: solid;
-}
-.grade{
+.border_role{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 30px;   
     margin-top: 30px ;
     width: 100%;
+}
+.role{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-width: 1px 0px 1px;
+    border-color:#2ED9FF;
+    width: 100%;
+    padding: 20px 0px;
 }
 .carte{
     margin:0px 25px ;

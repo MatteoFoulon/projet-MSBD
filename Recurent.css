@@ -253,6 +253,7 @@ footer{
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  font-size: 20px;
   width: 100%;
 }
 
@@ -264,7 +265,6 @@ footer{
   font-size: 25px;
   margin: 10px;
 }
-
 p{
     font-size:18px;
 }
@@ -328,10 +328,23 @@ header{
 
 footer{
     padding: 20px 0px 80px;
-      margin: 50px 0px 20px;
+      margin: 40px 0px 15px;
+}
+.footer_img_block{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer_img{
+    width: 50px;
 }
 .footer_p{
  align-items: center;
- margin-top: 10px;
+ font-size: 10px;
+ margin: 0px 10px;
 }
+
 }
