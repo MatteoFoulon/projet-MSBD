@@ -71,6 +71,7 @@ h3{
     border-width: 1px;
     border-color: #2ED9FF;
     border-radius: 30px;
+    box-shadow: 0px 0px 7px 0px #2ed9ff;
     margin-top: 20px;
 
 }
@@ -85,7 +86,6 @@ h3{
     width: 95%;
 }
 .publi_commun{
-     background-color: #013665;
     padding: 10px;
 }
 
